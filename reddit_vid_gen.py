@@ -1,5 +1,3 @@
-from collections import deque
-from functools import reduce
 import os
 from os import path
 import shutil

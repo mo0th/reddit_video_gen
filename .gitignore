@@ -139,3 +139,7 @@ cython_debug/
 
 # vscode
 .vscode/
+
+# Produced assets
+assets/
+dist/

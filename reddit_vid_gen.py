@@ -73,8 +73,10 @@ for c in list(selected.comments):
 print(f"Found {len(comments)} comments")
 num_wanted = int(
     input(f"How many do you want to use? [1-{len(comments)}]\n>>> "))
+
 if num_wanted == 0:
     exit()
+
 comments = comments[-num_wanted:]
 
 # test data
